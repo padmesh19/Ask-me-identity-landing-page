@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rowdies{
+  font-family: "Rowdies", sans-serif;
+}
+
+.righteous{
+  font-family: "Righteous", sans-serif;
+}
+
+.saira{
+  font-family: "Saira", sans-serif;
+}
+
+.black-shadow{
+  box-shadow: 0 4px 4px 0 #00000040;
+}
+
+.hero-gradient{
+  background: url('./../public/hero-bg-white.svg') no-repeat center fixed;
+  background-size: cover;
+}
+
+.about-course-border{
+  border: 0 2px dotted white;
+}
+
+.categories-shadow{
+  box-shadow: 0 4px 4px 0 #D9ECFF80;
+}
+
+.subscribe-bg{
+  background-image: url('./../public/subscribe-bg.svg');
+  background-size:95% 90%;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
+.video-play{
+  position: absolute;
+  top: 50%;   
+  left: 50%;  
+  transform: translate(-50%, -50%);
+}
+
